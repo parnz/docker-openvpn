@@ -17,6 +17,10 @@ a corresponding [Digital Ocean Community Tutorial](http://bit.ly/1AGUZkq).
 * Docker Registry @ [kylemanna/openvpn](https://hub.docker.com/r/kylemanna/openvpn/)
 * GitHub @ [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn)
 
+## Compile Docker Image
+    
+    docker buildx build --platform=linux/arm/v7
+
 ## Quick Start
 
 * Pick a name for the `$OVPN_DATA` data volume container. It's recommended to
