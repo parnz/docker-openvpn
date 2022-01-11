@@ -20,7 +20,7 @@ a corresponding [Digital Ocean Community Tutorial](http://bit.ly/1AGUZkq).
 ## Compile Docker Image
     
     cd path/to/docker-openvpn-arm32v7
-    docker buildx build --platform=linux/arm/v7 .
+    docker buildx build --platform=linux/arm/v7 . -t openvpn:arm32v7
 
 ## Quick Start
 
